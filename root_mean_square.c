@@ -37,7 +37,7 @@ int main()
  alfa = (alfa_*pi)/180;
  dec = (dec_*pi)/180;
 
- // aateroidini pixel koordinatlarını ve görüntünün merkez alfa deltasını kullanarak starndart
+ // asteroidin pixel koordinatlarını ve görüntünün merkez alfa deltası kullanılarak
  // Standart Coordinates Equations : Ekvatoryal koordinat sisteminden (alfa,delta) standart koordinat sistemine dönüştürme (X,Y)
  p = cos(dec0)*cos(dec)*cos(alfa-ra0) + sin(dec0)*sin(dec);
  X = -(cos(dec)*sin(alfa-ra0))/p; 
