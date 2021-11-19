@@ -27,7 +27,8 @@
 int main()
    {
 
-    double ra0, dec0, dec, alfa, X, Y, asteroid_alfa, asteroid_dec, rms, p, r, w;
+    double ra0, dec0, dec, alfa, X, Y;
+    double asteroid_alfa, asteroid_dec, rms, p, r, w;
     double x, y, error;
 
  // center alpha-delta
