@@ -22,12 +22,13 @@
  const double alfa_ = 8.328326611;
  const double dec_ = 21.29141417;
  const double pi = 3.14159265359;
-const double pixel_scale = 0.6612428961660046;
+ const double pixel_scale = 0.6612428961660046;
+
 int main()
    {
 
-    double ra0,dec0,dec,alfa,X,Y,asteroid_alfa,asteroid_dec,rms,p,r,w;
-    double x,y,error;
+    double ra0, dec0, dec, alfa, X, Y, asteroid_alfa, asteroid_dec, rms, p, r, w;
+    double x, y, error;
 
  // center alpha-delta
  ra0 = (alfa_deg*pi)/180;  //converting degree to radians
